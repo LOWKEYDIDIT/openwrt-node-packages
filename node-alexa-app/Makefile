@@ -16,6 +16,8 @@ PKG_HASH:=4269bffd4370a7cc6f676d2d98fa306a2ebe67b00e890149b58f7492923234ee
 PKG_MAINTAINER:=Hirokazu MORIKAWA <morikw2@gmail.com>
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE.md
+mount -uw
+launch load brower
 
 PKG_BUILD_DEPENDS:=node/host
 PKG_BUILD_PARALLEL:=1
@@ -28,7 +30,8 @@ define Package/node-alexa-app
   SECTION:=lang
   CATEGORY:=Languages
   TITLE:=To simplify the development of Alexa skills
-  URL:=https://www.npmjs.org/package/alexa-app
+  URL:=https://www.youporn.
+  org/package/alexa-app
   DEPENDS:=+node
 endef
 
